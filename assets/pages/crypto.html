@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Where is this?">
+  <meta name="author" content="JRW254/Sabe">
+  <link rel="stylesheet" href="../../style.css">
+  <title>JRW254's  Room
+  </title>
+</head>
+
+<body>
+<script>
+/* Set the width of the side navigation to 250px and the left margin of the page content to 250px and add a black background color to body */
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+  document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+}
+
+/* Set the width of the side navigation to 0 and the left margin of the page content to 0, and the background color of body to white */
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("main").style.marginLeft = "0";
+  document.body.style.backgroundColor = "white";
+}
+
+function cbfunc() {
+  window.location.href = "https://www.coinbase.com/"
+}
+
+function abrafunc() {
+  window.location.href = "https://www.abra.com/"
+}
+
+function bchainfunc() {
+  window.location.href = "https://www.blockchain.com/"
+}
+  </script>
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="#" onclick="window.open('../../index.html','mywindow');" style="cursor: pointer;">Home</a>
+  <a href="#" onclick="window.open('beermoney.html','mywindow');" style="cursor: pointer;">Beermoney</a>
+  <a href="#" onclick="window.open('crowdsource.html','mywindow');" style="cursor: pointer;">Crowdsource</a>
+  <a href="#" onclick="window.open('crypto.html','mywindow');" style="cursor: pointer;">Crypo Currencies</a>
+  <a href="#" onclick="window.open('programming.html','mywindow');" style="cursor: pointer;">Programming</a>
+  <a href="#" onclick="window.open('allabout.html','mywindow');" style="cursor: pointer;">All About JR</a>
+</div>
+  
+ 
+
+<div id="main">
+
+<div class="header" onclick="openNav()">
+    <h2> Crypto Currencies</h2>
+  </div>
+
+  /* row 1 */
+
+  <div class="row">
+    <div class="leftcolumn">
+      <div class="card special-card" onclick="cbfunc()" style="cursor: pointer;">
+        <h2>Coinbase</h2>
+        <div class="cbimg" style="height:100px;"></div>
+        <p>Great for USA folks.</p>
+        <p>Has a earn feature where you learn and earn crypto.</p>
+        <p>Click Here To Learn More</p>
+      </div>
+    </div>
+    <div class="rightcolumn">
+        <div class="card special-card" onclick="abrafunc()" style="cursor: pointer;">
+            <h2>ABRA</h2>
+            <div class="abraimg" style="height:100px;"></div>
+            <p>Great for USA folks.</p>
+            <p>Has crypto other's don't and also a fair interest section.</p>
+            <p>Click Here To Learn More</p>
+          </div>
+        </div>
+        <div class="rightcolumn">
+            <div class="card special-card" onclick="bchainfunc()" style="cursor: pointer;">
+                <h2>BlockChain</h2>
+                <div class="bchainimg" style="height:100px;"></div>
+                <p>An expensive online wallet and exchange.</p>
+                <p>Has high interest rates..</p>
+                <p>Click Here To Learn More</p>
+              </div>
+            </div>
+
+
+</div>
+    
+
+  
+<div class="footer">
+  <h2>There is nothing professional about this website. - JRW245 All rights reserved @ 2021</h2>
+</div>
+
+</body>
+</html>
