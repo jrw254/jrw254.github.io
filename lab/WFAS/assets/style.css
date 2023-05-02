@@ -1,0 +1,62 @@
+body {
+    margin: 0; 
+    background-color:#708090;
+  }
+  
+  header {
+    text-align: center; 
+    border-top: 1px solid #ccc;  
+    border-bottom: 1px solid #ccc; 
+  }
+  
+  footer {
+    text-align: center; 
+  }
+  
+  .sidebar {
+    width: 100px;
+    position: fixed;
+    left: 0;
+    top: 0; 
+    background: #333;
+    height: auto;  
+  }  
+  
+  .sidebar ul { /* Make it a unordered list */
+    list-style: none;
+    padding: 0; 
+  }  
+  
+  .sidebar li { /* Spacing between the list*/
+    padding: 10px;   
+  }
+  
+  .sidebar a {
+    color: #fff;
+    text-decoration: none; 
+  }  
+
+  .sidebar a:hover { /* Change color on hover */
+    color: purple;
+  }
+  
+  
+  .content { /* container for things  */
+    margin-left: 100px;   
+    padding: 20px;
+  }  
+  
+  .post { /* For the individual blog posts */
+    padding: 10px 0;    
+    border-bottom: 1px solid #ccc;  
+  }
+
+
+  @media screen and (min-device-width: 320px) and (max-device-width: 480px) {
+
+    body {
+      margin: 0; 
+      background-color:red;
+    }
+    
+  }
