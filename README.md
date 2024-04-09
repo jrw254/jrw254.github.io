@@ -31,18 +31,23 @@
 <details>
 <summary> AH v1 </summary>
 AHK v1 Code
-```js
+
+```ahk
 #random code here
 #more code
 #Even more code!
 ```
+
 </details>
 
 <details>
  <sumamry >AHK v2 </summary>
-```js
+AhK v2
+
+```ahk
 #Look at my V2 code
 #Mucho better
 #Please use me over v1
 ```
+
 </details>
