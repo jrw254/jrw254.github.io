@@ -36,8 +36,9 @@ AHK v1 Code
 #more code
 #Even more code!
 ```
-
-<sumamry>AHK v2</summary>
+</details>
+<details>
+ <sumamry>AHK v2</summary>
 ```ahk
 #Look at my V2 code
 #Mucho better
