@@ -29,7 +29,7 @@
 </details>
 
 <details>
-<sumamry> AHK v2 </summary>
+<summary> AHK v2 </summary>
 AHK v2
 
 ```ahk
