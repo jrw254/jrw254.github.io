@@ -38,6 +38,9 @@ AHK v1 Code
 #Even more code!
 ```
 
+</details>
+
+<details>
 <sumamry>AHK v2 </summary>
 AHK v2
 
