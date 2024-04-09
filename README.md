@@ -41,8 +41,8 @@ AHK v1 Code
 </details>
 
 <details>
- <sumamry >AHK v2 </summary>
-AhK v2
+ <sumamry>AHK v2 </summary>
+AHK v2
 
 ```ahk
 #Look at my V2 code
