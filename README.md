@@ -40,14 +40,4 @@ AHK v1 Code
 
 </details>
 
-<details>
-<sumamry>AHK v2 </summary>
-AHK v2
 
-```ahk
-#Look at my V2 code
-#Mucho better
-#Please use me over v1
-```
-
-</details>
